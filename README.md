@@ -1,1 +1,1 @@
-# lighter_traffic_fsm
+Synthesizable FSM for controlling traffic light. Synchronous, have asynchronous reset and three one-bit outputs: red, yellow and green that will turn on/off corresponding light. If output is in logical one – light is on, if output is in logical zero – light is off. Traffic light must operate as follows: Green -> Yellow1 -> RED -> Yellow2 -> Green and so on. Glow time of each color with the aid of parameters. The initial state of traffic light is red color.
